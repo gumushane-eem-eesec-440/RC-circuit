@@ -57,7 +57,7 @@ In general, we assume t<sub>0</sub>=0, which updates the equation above as
 
 <img src="equations/KGY_result_9.JPG" alt="equation obtained after applying KVL on RC circuit 9" height="50"/>
 
-We will plot the graph of this final equation but before that, let's think roughly on how the voltage across the capacitor would behave by focusing on extreme values: At t=0, V<sub>C</sub>(0)=V<sub>C</sub>(0) and while t→∞, V<sub>C</sub>(∞)=V<sub>cc</sub>. Also as the time constant τ := RC increases, V<sub>C</sub>(t) reaches V<sub>cc</sub> slower while lower values of τ result in V<sub>C</sub>(t) to converge to V<sub>cc</sub> faster.
+We will plot the graph of this final equation but before that, let's think roughly on how the **voltage across the capacitor** would behave by focusing on extreme values: At t=0, V<sub>C</sub>(0)=V<sub>C</sub>(0) and while t→∞, V<sub>C</sub>(∞)=V<sub>cc</sub>. Also as the time constant τ := RC increases, V<sub>C</sub>(t) reaches V<sub>cc</sub> slower while lower values of τ result in V<sub>C</sub>(t) to converge to V<sub>cc</sub> faster.
 
 Now, let's illustrate the solution for various values of R ve C and see the effect of the time constant on the capacitor voltage.
 
