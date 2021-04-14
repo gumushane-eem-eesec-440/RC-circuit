@@ -1,20 +1,20 @@
 clear all; close all; clc;
-T = 1e-3; stopTime = 2; % saniye
+T = 1e-3; stopTime = 2; % seconds
 R1 = 1e4; % 10k
 C1 = 1e-5; % 10uF
-R2 = 2e4; C2 = C1;
-R3 = 3e4; C3 = C1;
+R2 = 2*R1; C2 = C1;
+R3 = 3*R1; C3 = C1;
 R4 = R3; C4 = 0.1*C1;
-R5 = 4700; C5 = 10*C1;
-Vc0 = 0;
-Vcc = 5;
+R5 = 4.7e3; C5 = 10*C1;
+Vc0 = 0; % initial voltage of capacitor
+Vcc = 5; % DC power supply
 t = 0:T:stopTime;
 Vc1 = Vc0*exp(-(t/(R1*C1))) - Vcc*exp(-(t/(R1*C1))) + Vcc;
 Vc2 = Vc0*exp(-(t/(R2*C2))) - Vcc*exp(-(t/(R2*C2))) + Vcc;
 Vc3 = Vc0*exp(-(t/(R3*C3))) - Vcc*exp(-(t/(R3*C3))) + Vcc;
 Vc4 = Vc0*exp(-(t/(R4*C4))) - Vcc*exp(-(t/(R4*C4))) + Vcc;
 Vc5 = Vc0*exp(-(t/(R5*C5))) - Vcc*exp(-(t/(R5*C5))) + Vcc;
-fprintf('Zaman sabitleri tau = RC\n');
+fprintf('Time constants tau = RC\n');
 tau = [R1*C1; R2*C2; R3*C3; R4*C4; R5*C5]
 %%
 figure(1);
@@ -38,7 +38,7 @@ leg3 = sprintf('R = %ik\\Omega  x  C = %i\\muF  \\rightarrow  \\tau = %.2f', s1*
 leg4 = sprintf('R = %ik\\Omega  x  C = %.1f\\muF  \\rightarrow  \\tau = %.2f', s1*R4, s2*C4, tau(4));
 leg5 = sprintf('R = %.1fk\\Omega  x  C = %i\\muF  \\rightarrow  \\tau = %.2f', s1*R5, s2*C5, tau(5));
 legend(leg1, leg2, leg3, leg4, leg5, 'location', 'southeast');
-set(legend, 'Interpreter', 'tex');
+set(legend, 'Interpreter', 'tex', 'fontsize', 12);
 grid on;
 set(gca, 'gridlinestyle', '--');
 axis([0 2 -0.2 5.4]);
