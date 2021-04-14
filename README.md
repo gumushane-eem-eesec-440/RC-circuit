@@ -31,31 +31,31 @@ More manipulations result in
 
 <img src="equations/KGY_result_2.JPG" alt="equation obtained after applying KVL on RC circuit 2" height="55"/>
 
-Eşitliğin her iki tarafının integralini k=t<sub>0</sub>'dan k=t anına kadar alalım.
+Now, let's take the integral of both sides from k=t<sub>0</sub> to k=t.
 
-<img src="eşitlikler/KGY_sonucu_3.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
+<img src="equations/KGY_result_3.JPG" alt="equation obtained after applying KVL on RC circuit 3" height="55"/>
 
-Dikkat edilirse soldaki ifade doğal logaritma ile alakalı bir integral. İntegralleri alarak ilerleyecek olursak
+Notice that the statement at the left includes natural logarithm. Let's continue by writing the results of the integrals
 
-<img src="eşitlikler/KGY_sonucu_4.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="60"/>
+<img src="equations/KGY_result_4.JPG" alt="equation obtained after applying KVL on RC circuit 4" height="60"/>
 
-<img src="eşitlikler/KGY_sonucu_5.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="50"/>
+<img src="equations/KGY_result_5.JPG" alt="equation obtained after applying KVL on RC circuit 5" height="50"/>
 
-soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
+The expression with natural logarithm at the left becomes
 
-<img src="eşitlikler/KGY_sonucu_6.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
+<img src="equations/KGY_result_6.JPG" alt="equation obtained after applying KVL on RC circuit 6" height="55"/>
 
-her iki tarafı e ≈ 2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ln ifadesinden kurtulmuş olacağız)
+and now if we write both as exponents of e ≈ 2.71 (nothing is going to change while we eliminate the ln from the left side)
 
-<img src="eşitlikler/KGY_sonucu_7.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
+<img src="equations/KGY_result_7.JPG" alt="equation obtained after applying KVL on RC circuit 7" height="55"/>
 
-en sonunda aşağıdaki çözümü elde ederiz.
+eventually we get the equation
 
-<img src="eşitlikler/KGY_sonucu_8.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="50"/>
+<img src="equations/KGY_result_8.JPG" alt="equation obtained after applying KVL on RC circuit 8" height="50"/>
 
-Genelde t<sub>0</sub>=0 olarak kabul ettiğimizden elde ettiğimiz çözüm aşağıdaki son halini alır.
+In general, we assume t<sub>0</sub>=0 that updates the equation above as
 
-<img src="eşitlikler/KGY_sonucu_9.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="50"/>
+<img src="equations/KGY_result_9.JPG" alt="equation obtained after applying KVL on RC circuit 9" height="50"/>
 
 Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matematiksel ifadesi olan bu ifade hakkında hemen kabaca (yani ekstrem değerlere bakarak) düşünecek olursak t=0 anında V<sub>C</sub>(0)=V<sub>C</sub>(0) ve t→∞ durumunda V<sub>C</sub>(∞)=V<sub>cc</sub> olduğunu görebiliriz. Ayrıca zaman sabitimiz olan τ = RC arttıkça V<sub>C</sub>(t)'nin V<sub>cc</sub>'ye ulaşması yavaşlarken τ azalırken V<sub>C</sub>(t)'nin V<sub>cc</sub>'ye ulaşması hızlanır.
 
