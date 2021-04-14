@@ -19,19 +19,19 @@ When we apply Kirchoff's Voltage Law (KVL) on the RC circuit shown in *Fig. 1*, 
 
 -V<sub>cc</sub> + Ri(t) + V<sub>C</sub>(t) = 0
 
-Devremizde kapasitörün üzerinden geçen akım i<sub>C</sub>(t), aynı yönde tamamlandıklarından dolayı devrede dolaşan akım i(t)'ye eşit (i.e., i<sub>C</sub>(t)=i(t)). Bunu göz önünde bulundurarak yukarıda elde ettiğimiz ilk denklem olan kapasitörün matematiksel modelini KGY ile elde ettiğimiz denklemde yerine koyacak olursak
+The current that passes through the capacitor i<sub>C</sub>(t) is the same as the current i(t) that flows in the circuit (i.e., i<sub>C</sub>(t)=i(t)) as can be seen in *Fig. 1*. Considering this fact while substituting the capacitor's mathematical model in the equation obtained by KVL yields
 
-<img src="eşitlikler/KGY_sonucu_0.JPG" alt="KGY sonucu elde edilen eşitlik" height="55"/>
+<img src="equations/KGY_result_0.JPG" alt="equation obtained after applying KVL on RC circuit 0" height="55"/>
 
-birinci dereceden adi diferansiyel denklemini elde ederiz. Bu denklemi düzenlersek
+the first order differential equation. If we manipulate the equation, it becomes
 
-<img src="eşitlikler/KGY_sonucu_1.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş hali" height="55"/>
+<img src="equations/KGY_result_1.JPG" alt="equation obtained after applying KVL on RC circuit 1" height="55"/>
 
-haline gelir. Biraz daha manipüle edersek
+More manipulations result in
 
-<img src="eşitlikler/KGY_sonucu_2.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
+<img src="equations/KGY_result_2.JPG" alt="equation obtained after applying KVL on RC circuit 2" height="55"/>
 
-denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=t<sub>0</sub>'dan k=t anına kadar alalım.
+Eşitliğin her iki tarafının integralini k=t<sub>0</sub>'dan k=t anına kadar alalım.
 
 <img src="eşitlikler/KGY_sonucu_3.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
 
