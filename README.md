@@ -70,8 +70,8 @@ Now, let's illustrate the solution for various values of R ve C and see the effe
 *Figure 3:* Step response of the RC circuit for V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V and various R and C values.<sup>3</sup>.
 ## Footnotes
 <sup>1</sup> The response of the capacitor voltage is called as the *step response* in [1] as we assume that at t=0, a DC power supply is connected to the circuit. If the power supply is switched to an AC source, then it is more reasonable to refer to the response as the *forced response* (as [2] does), which is a more general name.</br> 
-<sup>2</sup> This graph is rendered in **MATLAB**. To obtain the same plot, run *RC_circuit_step_response.m* script in the [codes](https://github.com/gumushane-eem-eesec-440/RC-circuit/codes) subdirectory at this page.</br>
-<sup>3</sup> This graph is rendered with **Python** in **Google COLAB** environment. To obtain the same plot, run *RC_circuit.ipynb* file in the [codes](https://github.com/gumushane-eem-eesec-440/RC-circuit/codes) subdirectory at this page.</br>
+<sup>2</sup> This graph is rendered in **MATLAB**. To obtain the same plot, run *RC_circuit_step_response.m* script in the [codes](https://github.com/gumushane-eem-eesec-440/RC-circuit/tree/main/codes) subdirectory at this page.</br>
+<sup>3</sup> This graph is rendered with **Python** in **Google COLAB** environment. To obtain the same plot, run *RC_circuit.ipynb* file in the [codes](https://github.com/gumushane-eem-eesec-440/RC-circuit/tree/main/codes) subdirectory at this page.</br>
 ## References
 [1] J. W. Nilsson, S. A. Riedel, Electric Circuits, 10. Baskı, Prentice Hall, Upper Saddle River, New Jersey, 2014.</br>
 [2] M. Ö. Efe, Devre Analizi-I, 3. Baskı, Seçkin Yayıncılık, Ankara, 2016.
